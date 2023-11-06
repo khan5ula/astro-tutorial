@@ -1,6 +1,7 @@
 ---
-import "../styles/global.css"
+import Footer from "../components/Footer.astro"
 import Navigation from "../components/Navigation.astro"
+import "../styles/global.css"
 const pageTitle = "About me"
 
 const identity = {
@@ -31,7 +32,6 @@ const textCase = "uppercase"
 		<style define:vars={{ skillColor, fontWeight, textCase }}>
 			h1 {
 				color: purple;
-				font-size: 4rem;
 			}
 			.skill {
 				color: var(--skillColor);
@@ -88,5 +88,6 @@ const textCase = "uppercase"
 				<p>My goal is not 3 days.</p>
 			)
 		}
+		<Footer />
 	</body>
 </html>

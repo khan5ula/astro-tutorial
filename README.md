@@ -1,4 +1,7 @@
-I used this tutorial to learn the fundamentals of Astro.
+I used [this tutorial](https://docs.astro.build/en/tutorial/0-introduction/) to learn the fundamentals of Astro. I completed parts 'Build a Blog, 'Extend with Content Collections' and 'Extend with View Transitions'.
+
+## [The site is live here](https://stellar-platypus-a47c95.netlify.app/about/)
+<br />
 
 # Astro Starter Kit: Minimal
 
